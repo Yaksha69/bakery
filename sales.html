@@ -17,57 +17,80 @@
 
 
 
-    <div class="sidebar fixed-top">
+    <div class="sidebar">
         <ul class="side">
             <li class="bar">
+                <img src="assets/pos.svg" alt="">
                 <a href="PoS.html" class="pos text-dark">Point of Sale</a>
             </li>
             <li class="bar">
-                <a href="Sales.html" class="pos text-primary">Sales</a>
+                <img src="assets/inventory.svg" alt="">
+                <a href="inventory.html" class="pos text-dark  ">Inventory</a>
             </li>
             <li class="bar">
-                <a href="inventory.html" class="pos text-dark">Inventory</a>
+                <img src="assets/sales.svg" alt="">
+                <a href="Sales.html" class="pos text-primary">Sales</a>
             </li>
         </ul>
-        
     </div>
 
     
     
-        <div class="main-content">
-            <section>
-                <div class="tables inventory-container">
-                    <div class="row mb-4">
-                        <div class="col-4 d-flex align-items-center">
-                            <h2 class="mb-0 me-5">Sales</h2>    
-                            <input type="date" class="form-control" id="date" placeholder="Select Date" required>        
-                        </div>
-                        <div class="table-container">
-                            <table id="productTable" class="table table-bordered table-hover">
-                                <thead>
-                                    <tr>
-                                        <th>Product ID</th>
-                                        <th>Products</th>
-                                        <th>Price</th>
-                                        <th>Quantity Sold</th>
-                                        <th>Sales</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td colspan="4" class="text-end">
-                                            <strong></strong>
-                                        </td>
-                                        <td></td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
+    <div class="main-content">
+        <section>
+            <div class="tables inventory-container">
+                <div class="row mb-4">
+                    <div class="col-4 d-flex align-items-center">
+                        <h2 class="mb-0 me-5">Sales</h2>
+                        <input type="date" class="form-control" id="date" placeholder="Select Date" required>
                     </div>
                 </div>
-            </section>
-        </div>
-    </body>
+                
+                <div class="table-container">
+                    <table id="productTable" class="table table-bordered table-hover">
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Products</th>
+                                <th>Price</th>
+                                <th>Quantity</th>
+                                <th>Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>10-10-10</td>
+                                <td>Bicho-Bicho</td>
+                                <td>30</td>
+                                <td>Php5.00</td>
+                                <td>Php150.00</td>
+                            </tr>
+                          
+                        </tbody>
+
+                        <tbody>
+                            <tr>
+                                <td>10-10-10</td>
+                                <td>Ensaymada</td>
+                                <td>50</td>
+                                <td>Php5.00</td>
+                                <td>Php250.00</td>
+                            </tr>
+                          
+                        </tbody>
+                        
+                        <tfoot>
+                            <tr>
+                                <td colspan="4" class="text-end"><strong>Total</strong></td>
+                                <td><strong>Php350.00</strong></td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </div>
+    
     
     
 

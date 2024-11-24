@@ -1,0 +1,50 @@
+body {
+    background-image: url('../assets/bg1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+}
+
+.login-box {
+    background-color: rgba(222, 184, 135, 0.5); /* Light brown with transparency */
+    padding: 50px; /* Adjust padding as needed */
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 500px; /* Adjust the width to your desired size */
+}
+
+
+
+.login-box h2 {
+    color: #050505;
+    font-size: 40px; /* Optionally adjust the size of the heading */
+}
+
+.login-box h3 {
+    color: #0a0b0f; 
+    font-size: 25px; /* Reduce the font size of the subheading */
+}
+
+.login-box form {
+    margin-top: 10px; /* Reduce margin above form */
+}
+
+.login-box button {
+    margin-top: 15px; /* Adjust button margin for smaller form */
+}
+.text-center{
+    font-weight: bold;
+}
+.btn {
+    background-color: #4d2d03; /* Solid light brown */
+    color: rgb(252, 246, 246); /* Ensure the text color stands out */
+    border: none; /* Optional: Remove any borders */
+}
+
+.btn:hover {
+    background-color: #e79f40; /* Darker shade of light brown for hover effect */
+}

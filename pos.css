@@ -75,6 +75,7 @@ header{
 
 .deleteBtn {
     align-self: flex-start;
+    margin-top: 30px;
 }
 
 body {
@@ -96,6 +97,9 @@ body {
 .imgpos {
     width: 100%; /* Make the image take the full width of the card */
     height: 25vh; /* Maintain the aspect ratio */
+}
+.card-text {
+    font-weight: bold;
 }
 
 
